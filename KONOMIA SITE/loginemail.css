@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+}
+
+.wrapper-login {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imagem {
+  width: calc(100% - 480px);
+}
+
+.imagemlogin {
+  max-width: 100%;
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  filter: brightness(75%);
+  display: block;
+}
+
+.login {
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  height: 570px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.retornicon{
+  margin-right: 5px;
+  position: relative;
+  bottom: 1px;
+}
+.voltar {
+  font-family: "inter", sans-serif;
+  font-size: 14px;
+  color: #4DBBFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  width: 60px;
+  background-color: #ffffff;
+  border: #ffffff;
+}
+
+.voltar:hover {
+  text-decoration: underline;
+  color: #6ac6ff;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  color: #4DBBFF;
+  margin-top: 35px;
+}
+
+.entrar {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  color: #9F9F9F;
+}
+
+.acessos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.email {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+}
+
+.insemail {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: #ffffff;
+  border: 1px solid rgb(143, 143, 143);
+  width: 330px;
+  height: 37px;
+
+
+}
+
+.senha {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.inssenha {
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  background-color: #ffffff;
+  width: 330px;
+  height: 37px;
+  border: 1px solid rgb(143, 143, 143);
+}
+
+.entrarbutton {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  display: block;
+  margin: 0 auto;
+  background-color: #4DBBFF;
+  color: #ffffff;
+  width: 310px;
+  height: 37px;
+  border: 0px;
+}
+
+.entrarbutton:hover {
+  background-color: #6ac6ff;
+}
+
+.entrarbutton:active {
+  background-color: azure;
+  border: 1px solid #4DBBFF;
+  color: #4DBBFF;
+}
+
+.esquecisenha {
+  font-family: "inter", sans-serif;
+  font-size: 14px;
+  color: #4DBBFF;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.esquecisenha:hover {
+  color: #6ac6ff;
+  text-decoration: underline;
+}
+
+.semconta {
+  display: flex;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.link {
+  color: #4DBBFF;
+  text-decoration: none;
+  margin-left: 3px;
+}
+
+.link:hover {
+  color: #6ac6ff;
+  text-decoration: underline;
+}
