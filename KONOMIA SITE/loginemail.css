@@ -31,11 +31,12 @@
   flex-direction: column;
 }
 
-.retornicon{
+.retornicon {
   margin-right: 5px;
   position: relative;
   bottom: 1px;
 }
+
 .voltar {
   font-family: "inter", sans-serif;
   font-size: 14px;
@@ -90,8 +91,6 @@
   border: 1px solid rgb(143, 143, 143);
   width: 330px;
   height: 37px;
-
-
 }
 
 .senha {
