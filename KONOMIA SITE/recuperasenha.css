@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+}
+
+.wrapper-login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imagem {
+    width: calc(100% - 480px);
+}
+
+.imagemlogin {
+    max-width: 100%;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(75%);
+    display: block;
+}
+
+.login {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.retornicon {
+    margin-right: 5px;
+    position: relative;
+    bottom: 1px;
+}
+
+.voltar {
+    font-family: "inter", sans-serif;
+    font-size: 14px;
+    color: #4DBBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 60px;
+    background-color: #ffffff;
+    border: #ffffff;
+}
+
+.voltar:hover {
+    text-decoration: underline;
+    color: #6ac6ff;
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: #4DBBFF;
+    margin-top: 35px;
+}
+
+.recuperesenha {
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: #9F9F9F;
+}
+
+.msg {
+    font-family: "Inter", sans-serif;
+    width: 336px;
+    text-align: center;
+}
+
+.acessos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.email {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+}
+
+.insemail {
+    font-family: "Source Sans 3", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #ffffff;
+    border: 1px solid rgb(143, 143, 143);
+    width: 330px;
+    height: 37px;
+}
+
+.enviarlink {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    display: block;
+    margin: 0 auto;
+    background-color: #4DBBFF;
+    color: #ffffff;
+    width: 310px;
+    height: 37px;
+    border: 0px;
+}
+
+.enviarlink:hover {
+    background-color: #6ac6ff;
+}
+
+.enviarlink:active {
+    background-color: azure;
+    border: 1px solid #4DBBFF;
+    color: #4DBBFF;
+}
+
+.semconta {
+    display: flex;
+    justify-content: center;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.link {
+    color: #4DBBFF;
+    text-decoration: none;
+    margin-left: 3px;
+}
+
+.link:hover {
+    color: #6ac6ff;
+    text-decoration: underline;
+}
